@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 22, 22);
+    font-family: 'Courier New', Courier, monospace;
+}
+hr{
+    border-color: rgb(73, 73, 177);
+    height: 1px;
+    background-color:rgb(73, 73, 177);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.Background-img{
+    background-image: url(images/bgimg.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 450px;
+    display: flex;
+}
+.Logo{
+    display: flex;
+    padding:30px 180px;
+    cursor: pointer;
+}
+.Logo img{
+    width: 40px;
+    height: 30px;
+}
+.Logo h3{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Header_links{
+    padding-top: 40px;
+    /* text-align: center; */
+    padding-bottom: 250px;
+}
+.Header_links a{
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer; 
+    transition: padding 0.9s ease;   
+}
+.Header_links a:hover{
+    color: yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Login{
+    top:30px;
+    right: 270px;
+    position: absolute;
+}
+.Login button{
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+}
+.Header_links .Text1{
+    text-align: center;
+    position: absolute;
+    padding-top: 120px;
+   
+}
+.Header_links .Text1 h1{
+    font-size: 280%;
+    padding-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.Text1 p{
+    margin-right: 150px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Header_links .Download{
+    padding-top: 300px;
+    padding-left: 200px;
+}
+.Download button{
+    border-radius: 25px;
+    height: 50px; 
+    width: 200px;
+    background-color: rgb(23, 22, 22);
+    cursor: pointer;
+}
+.Download button:hover{
+    color: rgb(12, 12, 214);
+}
+.Image-wrapper1{
+    display: flex;
+    padding: 100px 300px ;
+    background-color: black;
+}
+.Image-wrapper1 .Text2{
+    padding-top: 70px;
+    padding-left: 90px;
+}
+.Text2 h1{
+    padding-bottom: 20px;
+}
+.Image-wrapper2{
+    display: flex;
+    padding: 100px 300px ;
+    
+}
+.Image-wrapper2 .Text3{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.Text3 h1{
+    padding-bottom: 20px;
+}
+.Image-wrapper3{
+    display: flex;
+    padding: 100px 300px ;
+    background-color: black;
+}
+.Image-wrapper3 .Text4{
+    padding-top: 70px;
+    padding-left: 90px;
+}
+.Text4 h1{
+    padding-bottom: 20px;
+}
+.Image-wrapper4{
+    padding: 100px 500px;
+    background-color: rgb(23, 22, 22);
+}
+.Text5{
+    padding-left: 90px;
+    text-align: center;
+}
+.Text5 h1{
+    padding-bottom: 50px;
+}
+.image4{
+    padding:50px 150px ;
+}
+.image4 h2{
+    text-align: center;
+}
+.Download2{
+    
+    padding-left: 250px;
+}
+.Download2 button{
+    border-radius: 25px;
+    height: 50px; 
+    width: 300px;
+    background-color: rgb(32, 8, 126);
+    cursor: pointer;
+}
+.Table_links form{
+    text-align: left;
+    margin-left: 300px;
+    padding-top: 50px;
+    cursor: pointer;
+
+}
+.Table_links select{
+    width: 90px;
+    height: 30px;
+    color:white;
+    background-color: #080b0e;
+    border-color: #080b0e;
+    border-radius: 10px;
+}
+.Table_links table{
+    text-align:left;
+    margin-left: 650px;
+    border-collapse:collapse;
+    border-spacing: 50px;
+    
+    
+}
+.Table_links a{
+    color:white;
+    text-decoration: none;
+    margin-right: 100px;
+
+}
+.Table_links th{
+    color:rgb(73, 73, 177);
+  
+}
+
+.Signup button{
+    float:right;
+    margin-right: 200px;
+    border-color:#080b0e;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: rgb(73, 73, 177);
+    color: black;
+    cursor: pointer;
+}
+.Signup img{
+    width: 30px;
+    height:30px;
+    margin-left: 300px;
+    
+}
